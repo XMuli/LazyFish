@@ -9,7 +9,18 @@
     mc:Ignorable="d"
     Title="WinPrank">
 
-    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-        <Button x:Name="myButton" Click="myButton_Click">Click Me</Button>
-    </StackPanel>
+    <NavigationView 
+        x:Name="nav" 
+        SelectionChanged="{x:Bind nav_SelectionChanged}"
+        IsSettingsVisible="False"
+        PaneTitle="Pages">
+        <NavigationView.MenuItems>
+            <NavigationViewItem Icon="Play" Content="Windows Crash" Tag="WindowsCrashPage" />
+            <NavigationViewItem Icon="Refresh" Content="Windows Update" Tag="WindowsUpdatePage" />
+            <NavigationViewItem Icon="Share" Content="Information" Tag="informationPage" />
+        </NavigationView.MenuItems>
+        <Frame x:Name="navContentFrame"/>
+    </NavigationView>
+
+
 </Window>
