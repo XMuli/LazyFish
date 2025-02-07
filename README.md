@@ -1,6 +1,34 @@
+# WinPrank
+
+> My first WinUI3 project
+>
+> 我的第一个 WinUI3 项目
 
 
 
+The computer displays a blue screen or a live system update video to get yourself a cup of coffee and a nap.
+
+电脑假装蓝屏、或系统带进度实时更新，让自己喝杯咖啡，小憩一会。
+
+
+
+# Show
+
+- **WinPrank**
+
+<img src="./snapshot/WinPrank.jpg" width="50%"/>
+
+- **WindowsUpdate**
+
+<img src="./snapshot/WindowsUpdate.jpg" width="80%"/>
+
+- **WindowsUpdate**
+
+<img src="./snapshot/WindowsUpdatePage.jpg" width="80%"/>
+
+
+
+# Build
 
 **Software Tool**
 
@@ -16,10 +44,6 @@ Development
 **NuGet Package:**
 
 - Microsoft.WindowsAppSDK
-
-
-
-
 
 
 
