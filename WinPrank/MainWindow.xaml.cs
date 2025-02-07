@@ -161,7 +161,7 @@ namespace WinPrank
 
                     navContentFrame.Content = m_windowsUpdatePage;
 
-                    ShowFullScreenMedia("Windows_Update_Screen_1_hour_REAL_COUNT_in_4K_UHD.mkv", true);
+                    ShowFullScreenMedia("Windows_Update_Screen_1_hour_REAL_COUNT_in_4K_UHD.webm", true);
                     break;
                 case "informationPage":
                     if (m_informationPages is null)

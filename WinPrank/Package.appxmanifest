@@ -8,15 +8,15 @@
   IgnorableNamespaces="uap rescap">
 
   <Identity
-    Name="453e5a7a-2510-49d2-8b21-97c6f9782a47"
-    Publisher="CN=&quot;Open Source Developer, Wengeng Zhang&quot;, O=Open Source Developer, L=Wuhan, S=Hubei, C=CN"
-    Version="1.0.1.0" />
+    Name="58584VincentOrganization.WinPrank"
+    Publisher="CN=A54FFB99-BB48-4CCD-BEAF-A4FEC9E5241F"
+    Version="1.0.13.0" />
 
-  <mp:PhoneIdentity PhoneProductId="453e5a7a-2510-49d2-8b21-97c6f9782a47" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="50246e10-61ea-4cae-bd64-f86ed0f0d745" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>WinPrank</DisplayName>
-    <PublisherDisplayName>Wengeng Zhang</PublisherDisplayName>
+    <PublisherDisplayName>XMuli Teams</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
