@@ -45,9 +45,18 @@
     <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.6.250108002" />
   </ItemGroup>
   <ItemGroup>
-    <Page Update="Pages\InformationPages.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
+    <Content Update="Assets\Images\bule_screen_01.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\Images\bule_screen_02.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\Images\bule_screen_03.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\Images\Windows_Update_Screen_1_hour_REAL_COUNT_in_4K_UHD.mkv">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Pages\WindowsUpdatePage.xaml">
@@ -56,6 +65,11 @@
   </ItemGroup>
   <ItemGroup>
     <Page Update="Pages\WindowsCrashPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Pages\InformationPages.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>

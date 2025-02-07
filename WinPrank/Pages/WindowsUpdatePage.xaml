@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Window
+<Page
     x:Class="WinPrank.Pages.WindowsUpdatePage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -7,11 +7,12 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Title="WindowsUpdatePage">
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <StackPanel Orientation="Vertical">
-        <RichTextBlock>
-            <Paragraph>WindowsUpdatePage.xaml.</Paragraph>
-        </RichTextBlock>
+        <MediaPlayerElement Source="ms-appx:///Assets/Images/Windows_Update_Screen_1_hour_REAL_COUNT_in_4K_UHD.mkv"
+                    AutoPlay="True"
+                    AreTransportControlsEnabled="True" />
     </StackPanel>
-</Window>
+    
+</Page>

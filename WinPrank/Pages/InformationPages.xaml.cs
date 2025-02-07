@@ -19,9 +19,9 @@ using Microsoft.UI.Xaml.Navigation;
 namespace WinPrank.Pages
 {
     /// <summary>
-    /// An empty window that can be used on its own or navigated to within a Frame.
+    /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class InformationPages : Window
+    public sealed partial class InformationPages : Page
     {
         public InformationPages()
         {
