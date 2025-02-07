@@ -43,6 +43,20 @@ namespace WinPrank
             m_appWindow = AppWindow.GetFromWindowId(myWndId);
 
         }
+        bool TrySetMicaBackdrop(bool useMicaAlt)
+        {
+            if (Microsoft.UI.Composition.SystemBackdrops.MicaController.IsSupported())
+            {
+                Microsoft.UI.Xaml.Media.MicaBackdrop micaBackdrop = new Microsoft.UI.Xaml.Media.MicaBackdrop();
+                micaBackdrop.Kind = useMicaAlt ? Microsoft.UI.Composition.SystemBackdrops.MicaKind.BaseAlt : Microsoft.UI.Composition.SystemBackdrops.MicaKind.Base;
+                this.SystemBackdrop = micaBackdrop;
+
+                return true; // Succeeded.
+            }
+
+            return false; // Mica is not supported on this system.
+        }
+
         private void ShowFullScreenMedia(string mediaPath, bool isVideo)
         {
             // 根据 isVideo 判断使用哪个控件

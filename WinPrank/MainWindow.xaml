@@ -9,6 +9,10 @@
     mc:Ignorable="d"
     Title="WinPrank">
 
+    <Window.SystemBackdrop>
+        <MicaBackdrop />
+    </Window.SystemBackdrop>
+    
     <NavigationView 
         x:Name="nav" 
         SelectionChanged="{x:Bind nav_SelectionChanged}"
