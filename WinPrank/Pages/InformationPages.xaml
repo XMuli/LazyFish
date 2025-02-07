@@ -10,7 +10,15 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <StackPanel Orientation="Vertical">
-        <HyperlinkButton Content="GitHub" NavigateUri="https://github.com/XMuli/WinPrank" />
+        <!--<HyperlinkButton  Content="GitHub" NavigateUri="https://github.com/XMuli/WinPrank" />-->
+
+        <HyperlinkButton NavigateUri="https://github.com/XMuli/WinPrank">
+            <StackPanel Orientation="Horizontal" Spacing="4">
+                <Image Source="ms-appx:///Assets/Images/github.svg" Width="24" Height="24"/>
+                <TextBlock Text="GitHub - WinPrank"/>
+            </StackPanel>
+        </HyperlinkButton>
+
     </StackPanel>
     
 </Page>
