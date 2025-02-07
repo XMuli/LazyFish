@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "WinPrank (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "WinPrank (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
