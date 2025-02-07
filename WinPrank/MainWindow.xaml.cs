@@ -37,6 +37,8 @@ namespace WinPrank
             this.InitializeComponent();
             this.Title = "Windows Prank";
 
+            this.AppWindow.SetIcon("Assets/Images/logo.ico");
+
             // 获取当前窗口的 AppWindow 实例
             IntPtr hWnd = WinRT.Interop.WindowNative.GetWindowHandle(this);
             WindowId myWndId = Microsoft.UI.Win32Interop.GetWindowIdFromWindow(hWnd);
@@ -174,11 +176,9 @@ namespace WinPrank
             }
         }
 
-
-        private AppWindow m_appWindow;
-
-        private WindowsCrashPage  m_windowsCrashPage;
-        private WindowsUpdatePage m_windowsUpdatePage;
-        private InformationPages  m_informationPages;
+        private AppWindow?        m_appWindow;
+        private WindowsCrashPage?  m_windowsCrashPage;
+        private WindowsUpdatePage? m_windowsUpdatePage;
+        private InformationPages?  m_informationPages;
     }
 }

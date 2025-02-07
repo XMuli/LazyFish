@@ -14,7 +14,7 @@
 
         <HyperlinkButton NavigateUri="https://github.com/XMuli/WinPrank">
             <StackPanel Orientation="Horizontal" Spacing="4">
-                <Image Source="ms-appx:///Assets/Images/github.svg" Width="24" Height="24"/>
+                <Image Source="ms-appx:///Assets/Images/github.svg" Width="20" Height="20"/>
                 <TextBlock Text="GitHub - WinPrank"/>
             </StackPanel>
         </HyperlinkButton>
