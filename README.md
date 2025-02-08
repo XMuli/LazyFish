@@ -14,17 +14,9 @@ The computer displays a blue screen or a live system update video to get yoursel
 
 # Show
 
-- **WinPrank**
+<img src="./snapshot/WinPrankShow.gif" width="100%"/>
 
-<img src="./snapshot/WinPrank.jpg" width="50%"/>
 
-- **WindowsUpdate**
-
-<img src="./snapshot/WindowsUpdate.jpg" width="80%"/>
-
-- **WindowsUpdate**
-
-<img src="./snapshot/WindowsUpdatePage.jpg" width="80%"/>
 
 
 
