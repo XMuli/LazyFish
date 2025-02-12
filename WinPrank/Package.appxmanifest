@@ -10,7 +10,7 @@
   <Identity
     Name="58584VincentOrganization.WinPrank"
     Publisher="CN=A54FFB99-BB48-4CCD-BEAF-A4FEC9E5241F"
-    Version="1.0.21.0" />
+    Version="1.0.25.0" />
 
   <mp:PhoneIdentity PhoneProductId="423cee20-e09e-4cbc-989b-1624e4b4c448" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 

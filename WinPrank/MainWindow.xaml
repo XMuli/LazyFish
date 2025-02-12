@@ -12,19 +12,17 @@
     <Window.SystemBackdrop>
         <MicaBackdrop />
     </Window.SystemBackdrop>
-    
+
     <NavigationView 
         x:Name="nav" 
         SelectionChanged="{x:Bind nav_SelectionChanged}"
         IsSettingsVisible="False"
         PaneTitle="Pages">
         <NavigationView.MenuItems>
-            <NavigationViewItem Icon="Play" Content="Windows Crash" Tag="WindowsCrashPage" />
-            <NavigationViewItem Icon="Refresh" Content="Windows Update" Tag="WindowsUpdatePage" />
+            <NavigationViewItem Icon="Play" Content="[Simulation] Windows Crash" Tag="WindowsCrashPage" />
+            <NavigationViewItem Icon="Refresh" Content="[Simulation] Windows Update" Tag="WindowsUpdatePage" />
             <NavigationViewItem Icon="Share" Content="Information" Tag="informationPage" />
         </NavigationView.MenuItems>
         <Frame x:Name="navContentFrame"/>
     </NavigationView>
-
-
 </Window>

@@ -30,14 +30,16 @@ namespace WinPrank
     /// </summary>
     public sealed partial class MainWindow : Window
     {
-        
-
         public MainWindow()
         {
             this.InitializeComponent();
             this.Title = "Windows Prank";
 
             this.AppWindow.SetIcon("Assets/Images/logo.ico");
+
+            // 一开始就将内容设置为信息页面
+            m_informationPages = new InformationPages();
+            navContentFrame.Content = m_informationPages;
 
             // 获取当前窗口的 AppWindow 实例
             IntPtr hWnd = WinRT.Interop.WindowNative.GetWindowHandle(this);

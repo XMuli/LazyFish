@@ -10,12 +10,29 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <StackPanel Orientation="Vertical">
-        <!--<HyperlinkButton  Content="GitHub" NavigateUri="https://github.com/XMuli/WinPrank" />-->
 
-        <HyperlinkButton NavigateUri="https://github.com/XMuli/WinPrank">
+        <TextBlock Text="WinPrank Introduce" FontSize="24"/>
+        <RichTextBlock FontSize="16">
+            <Paragraph>- Simulate windows blue screen effect</Paragraph>
+            <Paragraph>- Simulate windows update effect</Paragraph>
+            <Paragraph>- Press the `Esc` key to exit the full-screen window.</Paragraph>
+            <Paragraph>- Code open source at GitHub</Paragraph>
+            <Paragraph>- A simple WinUI3 project example</Paragraph>
+            <Paragraph>- Author: Wengeng Zhang</Paragraph>
+        </RichTextBlock>
+
+        
+        <HyperlinkButton NavigateUri="https://github.com/XMuli/WinPrank" Margin="0,20,0,0">
             <StackPanel Orientation="Horizontal" Spacing="4">
                 <Image Source="ms-appx:///Assets/Images/github.svg" Width="20" Height="20"/>
                 <TextBlock Text="GitHub - WinPrank"/>
+            </StackPanel>
+        </HyperlinkButton>
+
+        <HyperlinkButton NavigateUri="http://winprank.xmuli.tech" Margin="0,10,0,0">
+            <StackPanel Orientation="Horizontal" Spacing="4">
+                <Image Source="ms-appx:///Assets/Images/logo.svg" Width="20" Height="20"/>
+                <TextBlock Text="http://winprank.xmuli.tech"/>
             </StackPanel>
         </HyperlinkButton>
 
