@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="LazyFish.Pages.InformationPages"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LazyFish.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel Orientation="Vertical">
+
+        <TextBlock Text="LazyFish Introduce" FontSize="24"/>
+
+        <RichTextBlock FontSize="16">
+            <Paragraph>Actually, this is a joke application built using WinUI3. Clicking the button on the left displays a Windows update screen with progress, tricking your boss into thinking that your computer is updating. Then you can take a break and enjoy an elegant cup of coffee or a cola. Don't feel guilty—taking a break can recharge your mind, prepare you for more challenges, and boost your work efficiency.</Paragraph>
+            <Paragraph Margin="0,20,0,0">Press the `Esc` key to exit the full-screen window.</Paragraph>
+        </RichTextBlock>
+
+
+        <HyperlinkButton NavigateUri="https://github.com/XMuli/LazyFish" Margin="0,20,0,0">
+            <StackPanel Orientation="Horizontal" Spacing="4">
+                <Image Source="ms-appx:///Assets/Images/github.svg" Width="20" Height="20"/>
+                <TextBlock Text="GitHub - LazyFish"/>
+            </StackPanel>
+        </HyperlinkButton>
+
+        <HyperlinkButton NavigateUri="http://lazyfish.xmuli.tech" Margin="0,10,0,0">
+            <StackPanel Orientation="Horizontal" Spacing="4">
+                <Image Source="ms-appx:///Assets/Images/logo.svg" Width="20" Height="20"/>
+                <TextBlock Text="http://lazyfish.xmuli.tech"/>
+            </StackPanel>
+        </HyperlinkButton>
+
+    </StackPanel>
+    
+</Page>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="LazyFish.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LazyFish"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="LazyFish">
+
+    <Window.SystemBackdrop>
+        <MicaBackdrop />
+    </Window.SystemBackdrop>
+
+    <NavigationView 
+        x:Name="nav" 
+        SelectionChanged="{x:Bind nav_SelectionChanged}"
+        IsSettingsVisible="False"
+        PaneTitle="Pages">
+        <NavigationView.MenuItems>
+            <NavigationViewItem Icon="Play" Content="[Simulation] Windows Crash" Tag="WindowsCrashPage" />
+            <NavigationViewItem Icon="Refresh" Content="[Simulation] Windows Update" Tag="WindowsUpdatePage" />
+            <NavigationViewItem Icon="Share" Content="Information" Tag="informationPage" />
+        </NavigationView.MenuItems>
+        <Frame x:Name="navContentFrame"/>
+    </NavigationView>
+</Window>

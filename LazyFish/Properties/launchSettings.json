@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "LazyFish (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "LazyFish (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

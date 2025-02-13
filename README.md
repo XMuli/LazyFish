@@ -1,4 +1,4 @@
-# WinPrank
+# LazyFish
 
 > My first WinUI3 project
 >
@@ -14,7 +14,7 @@ The computer displays a blue screen or a live system update video to get yoursel
 
 # Show
 
-<img src="./snapshot/WinPrankShow.gif" width="100%"/>
+<img src="./snapshot/RunShow.gif" width="100%"/>
 
 
 
