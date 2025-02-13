@@ -2,13 +2,13 @@
 [[toc]]
 
 ## Describe
-WinPrank is a beautiful and useful "Screenshot & Pinning" software, also supports "OCR" and "Image Translate" software, supports Windows, MacOS, Linux operating systems.
+LazyFish is a beautiful and useful "Screenshot & Pinning" software, also supports "OCR" and "Image Translate" software, supports Windows, MacOS, Linux operating systems.
 
 This program will be developed and maintained for at least ten years starting in 2023 and is **free** of charge!
 
-[<img src="https://img.shields.io/github/release/XMuli/WinPrank.svg?label=version" alt="tags"/>](https://github.com/XMuli/WinPrank/releases)
+[<img src="https://img.shields.io/github/release/XMuli/LazyFish.svg?label=version" alt="tags"/>](https://github.com/XMuli/LazyFish/releases)
 
-[<img src="https://img.shields.io/github/downloads/XMuli/WinPrank/total" alt="Total Downloads" />](https://github.com/XMuli/WinPrank/releases)
+[<img src="https://img.shields.io/github/downloads/XMuli/LazyFish/total" alt="Total Downloads" />](https://github.com/XMuli/LazyFish/releases)
 
 
 ## Featured Functions
@@ -67,6 +67,6 @@ This program will be developed and maintained for at least ten years starting in
 | <kbd>Shift</kbd> + <kbd>←</kbd>, <kbd>↓</kbd>, <kbd>↑</kbd>, <kbd>→</kbd> | Shrink selection 10 px                                       | Local  |
 
 ## Code Signing Certificate 🎉
-> Downloading from GitHub [Release](https://github.com/XMuli/WinPrank/releases) is highly recommended for the fastest and most stable updates. After downloading the file, right-click on the file's properties to verify its uniqueness and make sure the file has not been tampered with;
+> Downloading from GitHub [Release](https://github.com/XMuli/LazyFish/releases) is highly recommended for the fastest and most stable updates. After downloading the file, right-click on the file's properties to verify its uniqueness and make sure the file has not been tampered with;
 
 <img src="https://fastly.jsdelivr.net/gh/XMuli/xmuliPic@pic/2024/202402010109545.png" width="600"/>

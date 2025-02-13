@@ -1,8 +1,8 @@
 # Support Platform
 
-[<img src="https://img.shields.io/github/release/XMuli/WinPrank.svg?label=version" alt="tags"/>](https://github.com/XMuli/WinPrank/releases)
+[<img src="https://img.shields.io/github/release/XMuli/LazyFish.svg?label=version" alt="tags"/>](https://github.com/XMuli/LazyFish/releases)
 
-[<img src="https://img.shields.io/github/downloads/XMuli/WinPrank/total" alt="Total Downloads" />](https://github.com/XMuli/WinPrank/releases)  
+[<img src="https://img.shields.io/github/downloads/XMuli/LazyFish/total" alt="Total Downloads" />](https://github.com/XMuli/LazyFish/releases)  
 
 ### Supported Operating Systems
 

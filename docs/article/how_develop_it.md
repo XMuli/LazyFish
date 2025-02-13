@@ -58,7 +58,7 @@
   <img src="https://fastly.jsdelivr.net/gh/XMuli/xmuliPic@pic/2024/202402192349047.jpg" width="150"/>
 
   **Note:** 个人作品上架微软商店的流程很折磨，最后上架成功后也是拨开云雾；
-  <font color=#D0087E size=4 face="STFangsong">若是文章对你有价值，下载对应 Windows 安装版本，亦可帮我积累 WinPrank 截图的微软信誉，或者在Linux等商店的好评，甚至感谢🙇‍</font> 
+  <font color=#D0087E size=4 face="STFangsong">若是文章对你有价值，下载对应 Windows 安装版本，亦可帮我积累 LazyFish 截图的微软信誉，或者在Linux等商店的好评，甚至感谢🙇‍</font> 
 
 
 ## 打包发布于 Windows / MacOS / Linux
@@ -89,7 +89,7 @@
 
   - Linux下又多种打包 `.deb` 打包方法：
 
-    - 〖方法一〗通过 ldd.sh + WinPrank.sh 两个脚本打包依赖，参考《[QT 项目在 Linux 平台上面发布成可执行程序](https://blog.csdn.net/qq_33154343/article/details/96448621)》
+    - 〖方法一〗通过 ldd.sh + LazyFish.sh 两个脚本打包依赖，参考《[QT 项目在 Linux 平台上面发布成可执行程序](https://blog.csdn.net/qq_33154343/article/details/96448621)》
 
     - 〖方法二〗通过 `dh_make` + `dpkg-buildpackage` 命令《[Linux 中用 dh_make 将 Qt + CMake 项目打包为 deb 文件](https://blog.csdn.net/qq_33154343/article/details/123778207)》
 
@@ -103,7 +103,7 @@
       set (CPACK_PACKAGE_VENDOR "https://github.com/XMuli")
       set (CPACK_PACKAGE_DESCRIPTION_SUMMARY "Simple and beautiful screenshot software tool for Windows, MacOS and Linux")
       set (CPACK_PACKAGE_FILE_NAME "${CPACK_PACKAGE_NAME}-${CPACK_PACKAGE_VERSION}")
-      set (CPACK_PACKAGE_CONTACT "https://WinPrank.xmuli.tech")
+      set (CPACK_PACKAGE_CONTACT "https://LazyFish.xmuli.tech")
       # 设置Debian软件包的依赖关系
       set (CPACK_DEBIAN_PACKAGE_DEPENDS "libqt5x11extras5, libqt5svg5")
       set (CPACK_SYSTEM_NAME "${CMAKE_SYSTEM_NAME}-${CMAKE_SYSTEM_PROCESSOR}")
@@ -117,7 +117,7 @@
     ```bash
     #【方式四】使用 linuxdeployqt 方式打包，在 Ubuntu 22.04 打包，不可以使用 -----------------------------
     ####linuxdeployqt-continuous-x86_64.AppImage 方案可在 Ubuntu 22.04 上面不可行####
-    $ ../linuxdeployqt-continuous-x86_64.AppImage WinPrank -appimage
+    $ ../linuxdeployqt-continuous-x86_64.AppImage LazyFish -appimage
     $ sudo apt install  libfuse2
     
     但是由于过于作者的固执坚守旧的版本，所以无法使用，理由和可能的解决如下：
@@ -141,7 +141,7 @@
     $ cmake --build . -j$(nproc)
     $ cd ..
     
-    $ ../linuxdeploy-x86_64.AppImage --appdir AppDir -e bin/WinPrank -d bin/resources/cpack/tech.xmuli.WinPrank.desktop -i bin/resources/logo/logo.svg --icon-filename tech.xmuli.WinPrank -p qt -o appimage
+    $ ../linuxdeploy-x86_64.AppImage --appdir AppDir -e bin/LazyFish -d bin/resources/cpack/tech.xmuli.LazyFish.desktop -i bin/resources/logo/logo.svg --icon-filename tech.xmuli.LazyFish -p qt -o appimage
     
     $  ./linuxdeploy-x86_64.AppImage --appdir AppDir -e build/thplayer -d assets/thplayer.desktop -i assets/thplayer.svg --icon-filename thplayer -p qt -o appimage
     $ mv TouHou_Player*.AppImage thplayer-linux.AppImage
@@ -200,7 +200,7 @@
 
   日志可以通过配置文件修改，若是遇到传说的崩溃，亦会自动生成 .dmp 和 崩溃原因；
 
-  转储文件存放： `C:/Users/用户名/AppData/Local/XMuli/WinPrank/cache/Sunny_Dumps/dump_2024_02_29_11_31_30_714.dmp` 
+  转储文件存放： `C:/Users/用户名/AppData/Local/XMuli/LazyFish/cache/Sunny_Dumps/dump_2024_02_29_11_31_30_714.dmp` 
 
   <img src="https://fastly.jsdelivr.net/gh/XMuli/xmuliPic@pic/2023/202402291131796.png" width="60%"/>
 
@@ -288,7 +288,7 @@
 
 ## 项目杂项
 
-- 『问题』 WinPrank 截图在在不同系统、编译器上开发、使用不同的 Kit Tools 上面如何解决乱码问题？且有时调试窗口乱码？还有 ANSI，UTF8，UTF8-BOM 采用哪种？
+- 『问题』 LazyFish 截图在在不同系统、编译器上开发、使用不同的 Kit Tools 上面如何解决乱码问题？且有时调试窗口乱码？还有 ANSI，UTF8，UTF8-BOM 采用哪种？
 
   参考《 [愿编程不再乱码(含Qt)-根因深究](https://blog.csdn.net/qq_33154343/article/details/120661967)》，以及 [QtExamples](https://github.com/XMuli/QtExamples) 的 "「第 6 章」 QT / IDE 乱码根因和解决"
 

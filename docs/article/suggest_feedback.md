@@ -7,7 +7,7 @@ If you have any suggestions for new features, feedback on bugs, participation in
 <br>
 
 ### English
-- [Issues](https://github.com/XMuli/WinPrank/issues)
+- [Issues](https://github.com/XMuli/LazyFish/issues)
 - [Discord](https://discord.gg/4TQkfh79gN)
 
 ### 中文
