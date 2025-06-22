@@ -1,5 +1,7 @@
 # LazyFish
 
+> 本项目已收录于 [Product](https://product.xmuli.tech/) 
+
 The computer displays a blue screen or a live system update video to get yourself a cup of coffee and a nap.
 
 电脑假装蓝屏、或系统带进度实时更新，让自己喝杯咖啡，小憩一会。
@@ -11,6 +13,8 @@ The computer displays a blue screen or a live system update video to get yoursel
 
 
 # Site
+
+GitHub: [LazyFish](https://github.com/XMuli/LazyFish)
 
 Office Home: [https://lazyfish.xmuli.tech](https://lazyfish.xmuli.tech/)
 
