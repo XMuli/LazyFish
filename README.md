@@ -12,15 +12,22 @@
   <p>
   </p>
 </div>
-<img src="https://img.shields.io/github/release/XMuli/LazyFish.svg?label=tags" alt="tags"/> <img src="https://img.shields.io/github/downloads/XMuli/LazyFish/total" alt="Total Downloads" />
+## Introduce
 
+ <img src="https://img.shields.io/github/release/XMuli/LazyFish.svg?label=tags" alt="tags"/>
 
-
-> My first WinUI3 project, It's also an easy tutorial to get started
+> 本项目已收录于 [Product](https://product.xmuli.tech/) 
 >
-> 我的第一个 WinUI3 项目，也是一个简单的入门教程
+
+My first WinUI3 project, It's also an easy tutorial to get started, and uploaded to the Microsoft Store.
+
+第一个 WinUI3 项目，也是一个简单的入门教程，并且上架微软商店。
 
 
+
+## Website
+
+**GitHub:** [LazyFish](https://github.com/XMuli/LazyFish)
 
 **Website:** [https://lazyfish.xmuli.tech](https://lazyfish.xmuli.tech/) 
 
