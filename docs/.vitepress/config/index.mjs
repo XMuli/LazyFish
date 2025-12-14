@@ -8,9 +8,7 @@ export default defineConfig({
   head: [
     // 现有的 favicon
     ['link', { rel: 'icon', href: 'images/favicon.ico' }],
-
-    // 添加 Umami 统计脚本
-    [
+    [  // 添加 Umami 统计脚本，不知为什么没生效？
       'script',
       {
         defer: '',
