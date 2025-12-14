@@ -5,8 +5,20 @@ export default defineConfig({
   description: "SunnyCapturer / Pinning / OCR / Image Translation / Capture / Linux / 截图 / 推荐", // seo 的优化
   // base: '/LazyFish/',    // https://xmuli.tech/LazyFish 且去掉 CNAME 文件后
   base: '/',                  // https://LazyFish.xmuli.tech 和 CNAME 文件
-  head: [['link', { rel: 'icon', href: 'images/favicon.ico' }]],
+  head: [
+    // 现有的 favicon
+    ['link', { rel: 'icon', href: 'images/favicon.ico' }],
 
+    // 添加 Umami 统计脚本
+    [
+      'script',
+      {
+        defer: '',
+        src: 'https://umami.xmuli.tech/script.js',
+        'data-website-id': '6b1f4fd4-1a15-4e62-9a8f-9bb13e5bf4cf'
+      }
+    ]
+  ],
   locales: {
     root: {
       selectText: 'Languages',
