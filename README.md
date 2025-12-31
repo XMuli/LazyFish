@@ -8,7 +8,7 @@ The computer displays a blue screen or a live system update video to get yoursel
 
 
 
- <img src="./snapshot/microsoft_store.jpg" width="80%"/>
+ <img src="./snapshot/microsoft_store.jpg" width="75%"/>
 
 
 
@@ -18,7 +18,7 @@ GitHub: [LazyFish](https://github.com/XMuli/LazyFish)
 
 Office Home: [https://lazyfish.xmuli.tech](https://lazyfish.xmuli.tech/)
 
- <a href="https://apps.microsoft.com/detail/9pd1s8ntpkxh?mode=direct"><img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200"/>
+ <a href="https://apps.microsoft.com/detail/9pd1s8ntpkxh?mode=direct"><img src="https://get.microsoft.com/images/en-us%20dark.svg" width="300"/>
 </a>
 
 
