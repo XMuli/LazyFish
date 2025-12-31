@@ -42,21 +42,3 @@ Development
 
 
 
-**NuGet Package:**
-
-- Microsoft.WindowsAppSDK
-
-
-
-**Ref:**
-
-- [WinUI 3——从入门到放弃](https://blog.panpili.com/2022/coding/dotnet/quit-winui-now/)
-- [WinUI 3 踩坑记](https://github.com/Scighost/WinUI3Keng)
-
-
-
-# Note
-
-> My first WinUI3 project 
->
-> 我的第一个 WinUI3 项目
